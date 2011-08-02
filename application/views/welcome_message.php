@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" />
 	<title>CodeIgniterへようこそ</title>
 
 <style type="text/css">
@@ -59,6 +59,12 @@ code {
 
 
 <p><br />このページは、{elapsed_time} 秒でレンダリングされました。</p>
+
+
+
+<?php echo form_open('email/send');?>
+
+
 
 </body>
 </html>
